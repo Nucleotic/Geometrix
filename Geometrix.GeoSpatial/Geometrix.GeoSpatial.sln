@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Geometrix.GisDesktop", "Geometrix.GisDesktop\Geometrix.GisDesktop.csproj", "{404204DE-C8BC-4438-A3F6-0636B4983A5B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Geometrix.Plugins", "Geometrix.Plugins\Geometrix.Plugins.csproj", "{32A86A6E-6BA1-4F14-9E84-5BE4DD0CACA4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Hosts", "Hosts", "{8242F7FC-6C0A-4E08-B571-92AC8E810777}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Plugins", "Plugins", "{C0C88AA8-F734-42EE-A372-B03D402F36A3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{404204DE-C8BC-4438-A3F6-0636B4983A5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{404204DE-C8BC-4438-A3F6-0636B4983A5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{404204DE-C8BC-4438-A3F6-0636B4983A5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{404204DE-C8BC-4438-A3F6-0636B4983A5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32A86A6E-6BA1-4F14-9E84-5BE4DD0CACA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32A86A6E-6BA1-4F14-9E84-5BE4DD0CACA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32A86A6E-6BA1-4F14-9E84-5BE4DD0CACA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32A86A6E-6BA1-4F14-9E84-5BE4DD0CACA4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{404204DE-C8BC-4438-A3F6-0636B4983A5B} = {8242F7FC-6C0A-4E08-B571-92AC8E810777}
+		{32A86A6E-6BA1-4F14-9E84-5BE4DD0CACA4} = {C0C88AA8-F734-42EE-A372-B03D402F36A3}
+	EndGlobalSection
+EndGlobal
